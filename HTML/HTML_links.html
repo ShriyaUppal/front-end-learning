@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links</title>
+</head>
+<body>
+    <!--
+    HTML links are hyperlinks.
+    We can click on a link and jump to another document.
+    When you move the mouse over a link, the mouse arrow will turn into a little hand.
+
+    The HTML <a> tag defines a hyperlink.
+    The most important attribute of the <a> element is href attribute, which indicates the link's destination.
+    The link text is the part that will be visible to the user.
+    Clicking on the link text, will send the reader to the specified URL address.
+    -->
+    <h1 id="C4">HTML Links</h1>
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a><br>
+    <!--
+    By default links will appear as follows in all browsers:
+    An unvisited link is underlined and blue.
+    A visited link is underlined and purpule.
+    An active link is underlined and red.
+    -->
+
+    <!--
+    The target attribute
+    By default, the linked page will be displayed in the current browser window. To change this, we must specify another target for the link.
+    The target attribute specifies where to open the linked document.
+    The target attribute can have one of the following values:
+    _self: Default-opens the document in the same window/tab as it was clicked.
+    _blank: Opens the document in a new window or tab.
+    _parent: Opens the document in the parent frame.
+    _top: Opens the document in the full body of the window.
+    -->
+
+    <!--
+    Absolute vs Relative URL's
+    An absolute url is a link to a page from outside the current website or from another source.
+    A relative url is a link to a page within the same website.
+    -->
+
+    <!--Absolute URL-->
+    <a href="https://www.w3schools.com/" target="_blank">Go to W3School website</a><br>
+
+    <!--Relative URL-->
+    <a href="External_CSS.html" target="_parent">Open link</a><br>
+
+    <!--
+    HTML links: Use an image as a link 
+    -->
+    <a href="External_CSS.html">
+        <img src="test-img.jpg" alt="img-text" width="300px">
+    </a><br>
+
+    <!--
+    Link to an email address
+    -->
+    <a href="mailto:shriyauppal1615@gmail.com">Send Email</a><br>
+    <!--Button as a link-->
+    <button onclick="document.location='Day4.html'">HTML tutorial</button>
+
+    <!--
+    HTML Links: Create a bookmark
+    Bookmarks can be useful if a web page is very long.
+    To create a bookmark - first create a bookmark then add a link to it.
+    When the link is clicked the page will scroll down or up to the location with the bookmark
+    -->
+    <!--First use the id attribute to create a bookmark-->
+    <h2 id="C2">This is heading part.</h2>
+    <!--Then add a link to the bookmark from within the same page.-->
+    <a href="#C4"> Go to document heading </a>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar{
+            display: flex;
+            background-color: cornflowerblue;
+            color: white;
+            justify-content: flex-start;
+            gap: 50px;
+            padding: 20px;
+
+        }
+
+        .container{
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            height: 100vh;
+            align-items: center;
+
+        }
+
+        .box{
+            background-color: azure;
+            padding: 30px
+        }
+
+        .row{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            background-color: aquamarine;
+            justify-content: space-around;
+        }
+
+        .card1{
+            background-color: gray;
+        }
+
+        .card2{
+            background-color: azure;
+        }
+
+        .card3{
+            background-color: blue;
+        }
+
+        .card1, .card2, .card3{
+            padding: 20px;
+            width: 120px;
+            height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!--Question 2: Navigation bar-->
+    <nav>
+        <div class="navbar">
+            <div class="home">Home</div>
+            <div class="about">About Us</div>
+            <div class="contact">Contact Us</div>
+        </div>
+    </nav>
+
+
+    <!--Question 1: Center a box in middle of page-->
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+
+    <!--Question 3: 3 cards in a row.-->
+    <div class="row">
+        <div class="card1">Card 1</div>
+        <div class="card2">Card 2</div>
+        <div class="card3">Card 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    background-color: red;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.div1{
+    background-color: blue;
+    flex-grow: 5;
+    
+}
+
+.div2{
+    background-color: aqua;
+    flex-basis: 200px;
+
+}
+
+.div3{
+    background-color: aquamarine;
+}
+/*
+By using display as a flex all the childrens align in a row.
+*/
+/*
+Flex Properties:
+1. display:flex Turns a normal container into flex container.
+2. flex-direction: controls the direction. 
+   row (By default row).
+   column
+   row-reverse.
+   column-reverse.
+
+
+3. justify-content: aligns items on main axis.
+   center.
+   flex-start
+   flex-end
+   space-between.
+   space-around.
+   space-evenly.
+
+
+4. align-items: align itmes on cross axis.
+   flex-start
+   flex-end
+   center
+   stretch
+
+5. gap: adds spacing.
+   gap:20
+
+6. flex-wrap
+   Allows wrapping.
+*/
+
+/*
+flex-itmes: properties.
+flex-grow: item grows to fill space.
+flex-shrink: Allows shrinking
+flex-basis: initial size
+flex: equivalent to grow, shink, basis
+*/
